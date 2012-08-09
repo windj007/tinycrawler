@@ -1,0 +1,19 @@
+actions:
+    - name: TestAction
+      params:
+        par1 : 123
+        par2 : 234
+          
+
+crawlerSettings:
+    seeds:
+        - google.com
+    proxies: {}
+    delay: 0.1
+        
+userState:
+    testField: 123
+
+log:
+    file: tinycrawler.log
+    level: 10
